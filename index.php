@@ -127,7 +127,7 @@ render_header();
         <p class="hero-copy">Mirror Age Concepts brings together consulting, technology services, and digital learning in one clear gateway for clients, partners, and learners.</p>
         <div class="d-flex flex-wrap gap-3 mt-4">
           <a href="#resources" class="btn btn-light">Explore resources</a>
-          <a href="<?= e(base_url('contact.php')) ?>" class="btn btn-outline-light">Talk to our team</a>
+          <a href="<?= e(app_url('contact.php')) ?>" class="btn btn-outline-light">Talk to our team</a>
         </div>
       </div>
         <div class="metric-grid">
@@ -238,8 +238,8 @@ render_header();
             <h2 class="h3">A clear gateway backed by practical digital expertise.</h2>
             <p class="text-body-secondary">From official documents to service enquiries and gateway access, everything is organized to help visitors move with confidence.</p>
             <div class="d-flex flex-wrap gap-3 mt-3">
-              <a href="<?= e(base_url('about.php')) ?>" class="btn btn-primary">About the company</a>
-              <a href="<?= e(base_url('contact.php')) ?>" class="btn btn-outline-secondary">Send an enquiry</a>
+              <a href="<?= e(app('about.php')) ?>" class="btn btn-primary">About the company</a>
+              <a href="<?= e(app('contact.php')) ?>" class="btn btn-outline-secondary">Send an enquiry</a>
             </div>
           </div>
         </div>
