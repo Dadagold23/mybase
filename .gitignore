@@ -3,3 +3,13 @@ db-check.php
 storage/contact-messages/*.json
 storage/database.sqlite
 storage/logs/*.log
+
+# Laravel app support
+laravel-app/vendor/
+laravel-app/node_modules/
+laravel-app/.env
+laravel-app/.phpunit.result.cache
+laravel-app/storage/*.key
+laravel-app/storage/*.sqlite
+laravel-app/storage/framework/*
+laravel-app/storage/logs/*
