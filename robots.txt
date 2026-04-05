@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+Disallow: /includes/
+Disallow: /storage/
+Disallow: /vendor/
+Disallow: /.git/
+Disallow: /.idea/
+Disallow: /.qodo/
+
+Sitemap: https://mirrorageconcepts.com/sitemap.xml

@@ -1,0 +1,5 @@
+.env
+db-check.php
+storage/contact-messages/*.json
+storage/database.sqlite
+storage/logs/*.log
