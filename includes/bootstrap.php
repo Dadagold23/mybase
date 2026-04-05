@@ -183,8 +183,8 @@ const RESOURCE_LINKS = [
 ];
 const PUBLIC_ROUTES = [
     'index.php' => '/',
-    'about.php' => '/about',
-    'contact.php' => '/contact',
+    'about.php' => '/about.php',
+    'contact.php' => '/contact.php',
 ];
 
 function app_base_url(): string
